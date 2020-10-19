@@ -5,7 +5,11 @@
 [![Tests](https://github.com/simonw/sphinx-to-sqlite/workflows/Test/badge.svg)](https://github.com/simonw/sphinx-to-sqlite/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/sphinx-to-sqlite/blob/master/LICENSE)
 
-Create a SQLite database from Sphinx documentation
+Create a SQLite database from Sphinx documentation.
+
+## Demo
+
+You can see the results of running this tool against the [Datasette documentation](https://docs.datasette.io/) at https://latest-docs.datasette.io/docs/sections
 
 ## Installation
 
