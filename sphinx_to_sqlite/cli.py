@@ -36,7 +36,7 @@ def find_sections_recursive(section, page, append_to, breadcrumbs=None):
         section_copy.remove(child)
     # and the title
     section_copy.remove(section_copy.find("title"))
-    content = "".join(section_copy.itertext()).strip()
+    content = " ".join(section_copy.itertext()).strip()
     ref = section.attrib["ids"].split()[-1]
     append_to.append(
         {
